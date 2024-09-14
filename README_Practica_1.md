@@ -5,9 +5,9 @@
 
 ### a) Estadísticos Descriptivos:
 - **Media Muestral (\(ar{x}\))**: Es una medida de tendencia central que estima la media poblacional y se calcula como:
-  \[
-  ar{x} = rac{1}{n} \sum_{i=1}^{n} x_i
-  \]
+x̄ = (1/n) * Σ x_i
+
+
   
 - **Mediana**: Es el valor que divide los datos en dos partes iguales. Es más robusta frente a valores atípicos.
 
@@ -46,7 +46,8 @@
 
 - **Estimadores de Máxima Verosimilitud (MLE)**: Se calculan maximizando la función de verosimilitud. Ejemplo para la distribución normal \(N(\mu, \sigma^2)\):
   \[
-  L(\mu, \sigma^2) = \prod_{i=1}^{n} rac{1}{\sqrt{2\pi \sigma^2}} \exp\left( -rac{(x_i - \mu)^2}{2\sigma^2} ight)
+  L(\mu, \sigma^2) = \prod_{i=1}^{n} rac{1}{\sqrt{2\pi \sigma^2}} \exp\left( -rac{(x_i - \mu)^2}{2\sigma^2} 
+ight)
   \]
   El MLE se obtiene resolviendo las ecuaciones derivadas de esta función.
 
