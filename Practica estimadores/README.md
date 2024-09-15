@@ -18,7 +18,6 @@ Este estimador tiene la propiedad de ser **insesgado**, lo que significa que, en
 
 ### c) **Estimador de la Varianza**
 
-### d) **Estimador Insesgado**
 
 Para estimar la varianza poblacional $\sigma^2$ , el **estimador insesgado de la varianza** es:
 
@@ -27,6 +26,8 @@ $$
 $$
 
 ¿Por qué dividimos entre  $n-1$  en lugar de $n$ ? Porque usar $n$  introduce un sesgo hacia abajo en la estimación, es decir, el estimador tendería a subestimar la varianza verdadera. Dividir entre $n-1$  corrige este sesgo, haciendo que el estimador sea insesgado.
+
+### d) **Estimador Insesgado**
 
 Un **estimador insesgado** es aquel cuyo valor esperado es igual al parámetro poblacional que intenta estimar. Formalmente, si  $\hat{\theta}$  es un estimador de $\theta$ , entonces $\hat{\theta}$  es insesgado si:
 
