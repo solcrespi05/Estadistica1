@@ -22,23 +22,23 @@ $$
 Tenemos la ecuación de $RSS = \sum(f(x_i)-y_i)^2$ (en otras palabras:  $\sum_{i=1}^{n}\varepsilon_𝑖^2$) y la derivamos cada $\beta$ e igualamos a 0 para encontrar los $\beta_0$ y $\beta_1$ que minimizan la RSS.
 
 entonces nos queda:
-- La derivada de  $\beta_0$:
+- La derivada de  $\beta_0$:  
 $$
-\frac{\partial RSS}{\partial \beta_0} = \sum_{i=1}^{n}2[y_i - (\beta_0 + \beta_1 x_i)](-1) = 0$$
+\frac{\partial RSS}{\partial \beta_0} = \sum_{i=1}^{n}2[y_i - (\beta_0 + \beta_1 x_i)](-1) = 0$$  
 $$
-\sum_{i=1}^{n}(-2)y_i - (\beta_0 + \beta_1 x_i) = 0$$
+\sum_{i=1}^{n}(-2)y_i - (\beta_0 + \beta_1 x_i) = 0$$  
 $$
-\sum_{i=1}^{n}y_i - \sum_{i=1}^{n}\beta_0 - \sum_{i=1}^{n} \beta_1 x_i = 0$$
+\sum_{i=1}^{n}y_i - \sum_{i=1}^{n}\beta_0 - \sum_{i=1}^{n} \beta_1 x_i = 0$$  
 $$
 \sum_{i=1}^{n}(y_i - \beta_1 x_i) = \sum_{i=1}^{n} \beta_0$$
-$$
-n\bar{y} - \beta_1 \bar{x} n = n \beta_0$$
+$$  
+n\bar{y} - \beta_1 \bar{x} n = n \beta_0$$  
 $$\beta_0= \bar{y} - \beta_1 \bar{x}
-$$
+$$  
 
 - La derivada de $\beta_1$ queda:
 $$
-\frac{\partial RSS}{\partial \beta_1} = \sum_{i=1}^{n}2[y_i - (\beta_0 + \beta_1 x_i)](-x_i) = 0$$
+\frac{\partial RSS}{\partial \beta_1} = \sum_{i=1}^{n}2[y_i - (\beta_0 + \beta_1 x_i)](-x_i) = 0$$  
 
 $$
 $$
