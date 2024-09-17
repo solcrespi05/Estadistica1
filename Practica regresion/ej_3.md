@@ -1,6 +1,6 @@
 #   Ejercicio 3
 Supongamos que tenemos un dataset $(𝑥1,𝑦1),..., (𝑥𝑛,𝑦𝑛)$ ∈ $R^2$ para $𝑛 ∈ N$ y hacemos un modelo de regresión lineal, donde $y_1 = \beta_0 + \beta_1 x_i + \varepsilon_i $.
-(a) Mostrar que los valores de $𝛽_0$ y $𝛽_1$ que minimizan la suma de los residuos $\sum_{i=1}^{n}\varepsilon_𝑖^2$ son
+a. Mostrar que los valores de $𝛽_0$ y $𝛽_1$ que minimizan la suma de los residuos $\sum_{i=1}^{n}\varepsilon_𝑖^2$ son
 
 $$
 \hat{\beta_1} = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i-\bar{y})}{\sum_{i=1}^{n}(x_i-\bar{x})^2}
@@ -18,7 +18,7 @@ $$
 
 (c)¿Que pasaría si hicieramos un ajuste de la forma $𝑌 ∼ 𝛽𝑋$?
 
-## Demostración
+## Demostración punto a
 Tenemos la ecuación de $RSS = \sum(f(x_i)-y_i)^2$ (en otras palabras:  $\sum_{i=1}^{n}\varepsilon_𝑖^2$) y la derivamos cada $\beta$ e igualamos a 0 para encontrar los $\beta_0$ y $\beta_1$ que minimizan la RSS.
 
 entonces nos queda:
@@ -58,4 +58,10 @@ Ahora sustituimos $\beta_0 = \bar{y} - \hat{\beta_1} \bar{x}$:
 $$\sum_{i=1}^{n} y_i x_i - (\bar{y} - \hat{\beta_1} \bar{x})\sum_{i=1}^{n}x_i - \hat{\beta_1}\sum_{i=1}^{n}x_i^2 = 0
 $$  
 
-
+## Punto b
+Nos pide interpretar el 2 que aparece en el denomindor del estimador insesgado de $\sigma$ :  
+$$
+\hat{\sigma^2} = \frac{1}{n-2}\sum_{i=1}^{n}(y_1 - \bar{y})^2
+$$  
+El 2 que aparece en el denominador se relaciona con la cantidad de parámetros que estamos estimando, en el caso de la regresión lineal serían $\beta_0$ y $\beta_1$. Cuando estimamos esos dos parámetros se reduce el número de grados de libertad de la varianza de los errores. 
+Entonces decimos que el estimador de la varianza tiene $n-2$ grados de libertad. 
