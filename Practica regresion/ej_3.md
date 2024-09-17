@@ -23,16 +23,21 @@ Tenemos la ecuación de $RSS = \sum(f(x_i)-y_i)^2$ (en otras palabras:  $\sum_{i
 
 entonces nos queda:
 - La derivada de  $\beta_0$:  
-$$
-\frac{\partial RSS}{\partial \beta_0} = \sum_{i=1}^{n}2[y_i - (\beta_0 + \beta_1 x_i)](-1) = 0$$  
-$$
-\sum_{i=1}^{n}(-2)y_i - (\beta_0 + \beta_1 x_i) = 0$$  
-$$
-\sum_{i=1}^{n}y_i - \sum_{i=1}^{n}\beta_0 - \sum_{i=1}^{n} \beta_1 x_i = 0$$  
-$$
-\sum_{i=1}^{n}(y_i - \beta_1 x_i) = \sum_{i=1}^{n} \beta_0$$
+$$\frac{\partial RSS}{\partial \beta_0} = \sum_{i=1}^{n}2[y_i - (\beta_0 + \beta_1 x_i)](-1) = 0
 $$  
-n\bar{y} - \beta_1 \bar{x} n = n \beta_0$$  
+
+$$\sum_{i=1}^{n}(-2)y_i - (\beta_0 + \beta_1 x_i) = 0
+$$   
+
+$$\sum_{i=1}^{n}y_i - \sum_{i=1}^{n}\beta_0 - \sum_{i=1}^{n} \beta_1 x_i = 0
+$$  
+
+$$\sum_{i=1}^{n}(y_i - \beta_1 x_i) = \sum_{i=1}^{n} \beta_0
+$$  
+
+$$n\bar{y} - \beta_1 \bar{x} n = n \beta_0
+$$  
+
 $$\beta_0= \bar{y} - \beta_1 \bar{x}
 $$  
 
