@@ -60,6 +60,7 @@ $$
 
 ## Punto b
 Nos pide interpretar el 2 que aparece en el denomindor del estimador insesgado de $\sigma$ :  
+
 $$\hat{\sigma^2} = \frac{1}{n-2}\sum_{i=1}^{n}(y_1 - \bar{y})^2
 $$  
 
