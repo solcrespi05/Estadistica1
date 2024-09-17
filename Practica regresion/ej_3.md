@@ -53,8 +53,10 @@ $$
 Ahora sustituimos $\beta_0 = \bar{y} - \hat{\beta_1} \bar{x}$:  
 
 $$\sum_{i=1}^{n}(y_i - (\bar{y} - \beta_1 \bar{x}) - \beta_1 x_i)x_i = 0
-$$  
+$$   
+
 Factor común  
+
 $$\sum_{i=1}^{n}(y_i - \bar{y} + \beta_1 (\bar{x} -  x_i))x_i = 0
 $$  
 
