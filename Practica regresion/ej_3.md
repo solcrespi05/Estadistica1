@@ -23,6 +23,7 @@ Tenemos la ecuación de $RSS = \sum(f(x_i)-y_i)^2$ (en otras palabras:  $\sum_{i
 
 entonces nos queda:
 - La derivada de  $\beta_0$:  
+
 $$\frac{\partial RSS}{\partial \beta_0} = \sum_{i=1}^{n}2\left [ y_i - (\beta_0 + \beta_1 x_i) \right ] (-1) = 0
 $$  
 
@@ -41,9 +42,16 @@ $$
 $$\beta_0= \bar{y} - \beta_1 \bar{x}
 $$  
 
-- La derivada de $\beta_1$ queda:
-$$
-\frac{\partial RSS}{\partial \beta_1} = \sum_{i=1}^{n}2[y_i - (\beta_0 + \beta_1 x_i)](-x_i) = 0$$  
+- La derivada de $\beta_1$ queda:  
+$$\frac{\partial RSS}{\partial \beta_1} = \sum_{i=1}^{n}2 \left [y_i - (\beta_0 + \beta_1 x_i) \right] (-x_i) = 0
+$$  
 
-$$
-$$
+$$\sum_{i=1}^{n}(y_i - \beta_0 - \beta_1 x_i)x_i = 0  
+$$  
+$$\sum_{i=1}^{n} y_i x_i - \beta_0 \sum_{i=1}^{n} x_i - \beta_1 \sum_{i=1}^{n} x_i^2 = 0
+$$  
+Ahora sustituimos $\beta_0 = \bar{y} - \hat{\beta_1} \bar{x}$:  
+$$\sum_{i=1}^{n} y_i x_i - (\bar{y} - \hat{\beta_1} \bar{x})\sum_{i=1}^{n}x_i - \hat{\beta_1}\sum_{i=1}^{n}x_i^2 = 0
+$$  
+
+
