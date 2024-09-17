@@ -43,6 +43,7 @@ $$\beta_0= \bar{y} - \beta_1 \bar{x}
 $$  
 
 - La derivada de $\beta_1$ queda:  
+
 $$\frac{\partial RSS}{\partial \beta_1} = \sum_{i=1}^{n}2 \left [y_i - (\beta_0 + \beta_1 x_i) \right] (-x_i) = 0
 $$  
 
