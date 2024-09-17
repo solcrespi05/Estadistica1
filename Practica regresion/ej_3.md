@@ -50,12 +50,18 @@ $$
 $$\sum_{i=1}^{n}(y_i - \beta_0 - \beta_1 x_i)x_i = 0
 $$  
 
-$$\sum_{i=1}^{n} y_i x_i - \beta_0 \sum_{i=1}^{n} x_i - \beta_1 \sum_{i=1}^{n} x_i^2 = 0
-$$  
-
 Ahora sustituimos $\beta_0 = \bar{y} - \hat{\beta_1} \bar{x}$:  
 
-$$\sum_{i=1}^{n} y_i x_i - (\bar{y} - \hat{\beta_1} \bar{x})\sum_{i=1}^{n}x_i - \hat{\beta_1}\sum_{i=1}^{n}x_i^2 = 0
+$$\sum_{i=1}^{n}(y_i - (\bar{y} - \beta_1 \bar{x}) - \beta_1 x_i)x_i = 0
+$$  
+Factor común  
+$$\sum_{i=1}^{n}(y_i - \bar{y} + \beta_1 (\bar{x} -  x_i))x_i = 0
+$$  
+
+$$\sum_{i=1}^{n}(y_i - \bar{y})x_i =\beta_1 \sum_{i=1}^{n} (\bar{x} -  x_i)x_i 
+$$  
+
+$$\beta_1= \frac{\sum_{i=1}^{n} (X_i-\bar{X})(Y_i- \bar{Y})}{\sum_{i=1}^{n}(X_i - \bar{X})^2}
 $$  
 
 ## Punto b
@@ -66,3 +72,5 @@ $$
 
 El 2 que aparece en el denominador se relaciona con la cantidad de parámetros que estamos estimando, en el caso de la regresión lineal serían $\beta_0$ y $\beta_1$. Cuando estimamos esos dos parámetros se reduce el número de grados de libertad de la varianza de los errores. 
 Entonces decimos que el estimador de la varianza tiene $n-2$ grados de libertad. 
+
+## Punto c
