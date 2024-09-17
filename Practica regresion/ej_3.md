@@ -60,8 +60,8 @@ $$
 
 ## Punto b
 Nos pide interpretar el 2 que aparece en el denomindor del estimador insesgado de $\sigma$ :  
-$$
-\hat{\sigma^2} = \frac{1}{n-2}\sum_{i=1}^{n}(y_1 - \bar{y})^2
+$$\hat{\sigma^2} = \frac{1}{n-2}\sum_{i=1}^{n}(y_1 - \bar{y})^2
 $$  
+
 El 2 que aparece en el denominador se relaciona con la cantidad de parámetros que estamos estimando, en el caso de la regresión lineal serían $\beta_0$ y $\beta_1$. Cuando estimamos esos dos parámetros se reduce el número de grados de libertad de la varianza de los errores. 
 Entonces decimos que el estimador de la varianza tiene $n-2$ grados de libertad. 
