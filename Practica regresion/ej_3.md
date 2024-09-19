@@ -42,29 +42,24 @@ $$
 $$\beta_0= \bar{y} - \beta_1 \bar{x}
 $$  
 
-- La derivada de $\beta_1$ queda:  
+- La derivada de $\beta_1$ queda:(aca copie y pegue del [repo](https://colab.research.google.com/drive/1cYSX0Hhx8Ba-VfZAlcpCLuYBJbF9d-dC#scrollTo=uqtslOGfxd91))  
 
-$$\frac{\partial RSS}{\partial \beta_1} = \sum_{i=1}^{n}2 \left [y_i - (\beta_0 + \beta_1 x_i) \right] (-x_i) = 0
-$$  
+$$\frac{\partial SCR}{\partial\hat\beta_1}= -2 \sum_{i=1}^{n} x_i(y_i - \hat\beta_0 - \hat\beta_1 x_i) = 0  $$
 
-$$\sum_{i=1}^{n}(y_i - \beta_0 - \beta_1 x_i)x_i = 0
-$$  
+$$\sum_{i=1}^{n} x_i y_i = \hat\beta_0 \sum_{i=1}^{n} x_i + \hat\beta_1 \sum_{i=1}^{n}x_i^2 = 0  $$
 
-Ahora sustituimos $\beta_0 = \bar{y} - \hat{\beta_1} \bar{x}$:  
+Esta es la segunda ecuación normal. Sustituyendo la primera en la segunda y definiendo $S_{xy} := \frac{1}{n} \sum_{i=1}^{n}  {(x_i - \bar x)(y_i - \bar y)}=\frac{1}{n} \sum_{i=1}^{n}x_i y_i - \bar x \bar y $ (la covarianza muestral) tenemos
 
-$$\sum_{i=1}^{n}(y_i - (\bar{y} - \beta_1 \bar{x}) - \beta_1 x_i)x_i = 0
-$$   
 
-Factor común  
+$$\sum_{i=1}^{n} x_i y_i = (\bar y_n -\hat\beta_1 \bar x_n) \sum_{i=1}^{n} x_i + \hat\beta_1 \sum_{i=1}^{n}x_i^2 = 0  $$
 
-$$\sum_{i=1}^{n}(y_i - \bar{y} + \beta_1 (\bar{x} -  x_i))x_i = 0
-$$  
+$$ \sum_{i=1}^{n} (x_i y_i - \bar y x_i)= \hat\beta_1 \left( \sum_{i=1}^{n}(x_i^2 - \bar x_n x_i)\right) $$
 
-$$\sum_{i=1}^{n}(y_i - \bar{y})x_i =\beta_1 \sum_{i=1}^{n} (\bar{x} -  x_i)x_i 
-$$  
+Dividiendo por $n$ y operando
 
-$$\beta_1= \frac{\sum_{i=1}^{n} (X_i-\bar{X})(Y_i- \bar{Y})}{\sum_{i=1}^{n}(X_i - \bar{X})^2}
-$$  
+$$
+\hat\beta_1  = \frac{S_{xy}}{S_{xx}}
+$$
 
 ## Punto b
 Nos pide interpretar el 2 que aparece en el denomindor del estimador insesgado de $\sigma$ :  
