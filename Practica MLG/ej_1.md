@@ -38,7 +38,7 @@ ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multipli
 (sacado del libro de Dunn)  
 
 ii.
-Poisson escrita de la forma de EDM:
+Poisson escrita de la forma de EDM:  
 $$
 P(y; \mu) = \exp\left\{y \log(\mu) - \mu - \log(y!)\right\}
 $$  
