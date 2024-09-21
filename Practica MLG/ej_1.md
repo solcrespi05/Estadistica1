@@ -31,9 +31,10 @@ $$
 $$f(y;\mu, \phi )=  \frac{1}{\sqrt{2\pi y^{3}\phi}}e ^{-\frac{(y-\mu)^{2}}{2\phi y \mu^{2}}} $$  
 ## Resolución :  
 i. Tratamos de llevarla a forma canonica para entenderla mejor
-$$f(y;\mu,\sigma^{2}) =  \frac{1}{\sqrt{2\pi \sigma ^{2}}} exp\left\{\frac{y\mu - (\mu^{2}/2)}{\sigma^{2}}- \frac{y^{2}}{2\sigma^{2}}\right\} 
+$$f(y;\mu,\sigma^{2}) =  \frac{1}{\sqrt{2\pi \sigma ^{2}}} exp \left\{\frac{y\mu - (\mu^{2}/2)}{\sigma^{2}}- \frac{y^{2}}{2\sigma^{2}} \right\} 
 $$  
-ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multiplicando a la $y$ y la función cumulante ($\kappa(\theta)= \mu$) sería: $(\mu^{2}/2)exp\left\{- \frac{y^{2}}{2\sigma^{2}}\right\}$. El parametro de disperción seria $\sigma^{2}$
+
+ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multiplicando a la $y$ y la función cumulante ($\kappa(\theta)= \mu$) sería: $(\mu^{2}/2)exp \left\{- \frac{y^{2}}{2\sigma^{2}} \right\}$. El parametro de disperción seria $\sigma^{2}$
 (sacado del libro de Dunn)  
 
 ii.
@@ -42,9 +43,10 @@ $$
 P(y; μ) = exp\left\{y log(μ) − μ − log(y!)\right\}$$  
 mostrando que el parametro canonico $\theta$ es $log(\mu)$
 ,$\kappa(\theta) = \mu$, y $\phi =1$. La funcion normalizadora es $a(y,\phi) =1/y!$  
-iii. Binomial de la forma EDM
+iii. Binomial de la forma EDM  
 $$
 \binom{m}{my}exp\left [ m\left\{ y log\frac{\mu}{1-\mu} + log(1-\mu)\right\} \right ]$$  
+
 donde el parámetro canonico es $\theta = log\left\{\mu/( 1-\mu)\right\} $. Entonces $\kappa(\theta) = -log (1-\mu)$, y $\phi = 1/n$. Por último $\binom{m}{my}$ es la función normlizadora. La dsitribución binomial es un EDM cuando se conoce n 
 
 iv , v. Weibull -> esta distribución no siempre es EDM, solo cuando $\alpha = 1$ que en realidad queda como la distribución exponencial con media $\gamma$. 
