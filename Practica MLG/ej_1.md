@@ -39,7 +39,7 @@ ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multipli
 
 ii.
 Poisson escrita de la forma de EDM:  
-$$P(y; \mu) = \exp\bigl\{ y \log(\mu) - \mu - \log(y!) \bigr\}$$
+$$P(y; \mu) = \exp \left\{y \log(\mu) - \mu - \log(y!) \right\}$$
 
 
 mostrando que el parametro canonico $\theta$ es $log(\mu)$
