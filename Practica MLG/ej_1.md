@@ -31,10 +31,10 @@ $$
 $$f(y;\mu, \phi )=  \frac{1}{\sqrt{2\pi y^{3}\phi}}e ^{-\frac{(y-\mu)^{2}}{2\phi y \mu^{2}}} $$  
 ## Resolución :  
 i. Tratamos de llevarla a forma canonica para entenderla mejor
-$$f(y;\mu,\sigma^{2}) =  \frac{1}{\sqrt{2\pi \sigma ^{2}}} exp \left\{\frac{y\mu - (\mu^{2}/2)}{\sigma^{2}}- \frac{y^{2}}{2\sigma^{2}} \right\} 
+$$f(y;\mu,\sigma^{2}) =  \frac{1}{\sqrt{2\pi \sigma ^{2}}} exp \left[\frac{y\mu - (\mu^{2}/2)}{\sigma^{2}}- \frac{y^{2}}{2\sigma^{2}} \right] 
 $$  
 
-ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multiplicando a la $y$ y la función cumulante ($\kappa(\theta)= \mu$) sería: $(\mu^{2}/2)exp \left\{- \frac{y^{2}}{2\sigma^{2}} \right\}$. El parametro de disperción seria $\sigma^{2}$
+ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multiplicando a la $y$ y la función cumulante ($\kappa(\theta)= \mu$) sería: $(\mu^{2}/2)exp \left{- \frac{y^{2}}{2\sigma^{2}} \right}$. El parametro de disperción seria $\sigma^{2}$
 (sacado del libro de Dunn)  
 
 ii.
