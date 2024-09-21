@@ -39,8 +39,7 @@ ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multipli
 
 ii.
 Poisson escrita de la forma de EDM:  
-$$
-P(y; \mu) = \exp\left\{y \log(\mu) - \mu - \log(y!)\right\}
+$$P(y; \mu) = \exp\left\{y \log(\mu) - \mu - \log(y!)\right\}
 $$  
 mostrando que el parametro canonico $\theta$ es $log(\mu)$
 ,$\kappa(\theta) = \mu$, y $\phi =1$. La funcion normalizadora es $a(y,\phi) =1/y!$  
