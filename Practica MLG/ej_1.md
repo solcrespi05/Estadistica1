@@ -39,12 +39,14 @@ ya con esto vemos que el parámetro $\theta$ = $\mu$ porque es el queda multipli
 
 ii.
 Poisson escrita de la forma de EDM:  
+
 $$P(y; \mu) = \exp \left[y \log(\mu) - \mu - \log(y!) \right]$$
 
 
 mostrando que el parametro canonico $\theta$ es $log(\mu)$
-,$\kappa(\theta) = \mu$, y $\phi =1$. La funcion normalizadora es $a(y,\phi) =1/y!$  
+, $\kappa(\theta) = \mu$, y $\phi =1$. La funcion normalizadora es $a(y,\phi) =1/y!$  
 iii. Binomial de la forma EDM  
+
 $$\binom{m}{my}exp\left [ m\left(y log\frac{\mu}{1-\mu} + log(1-\mu)\right) \right ]$$  
 
 donde el parámetro canonico es $\theta = log\left[\mu/( 1-\mu)\right] $. Entonces $\kappa(\theta) = -log (1-\mu)$, y $\phi = 1/n$. Por último $\binom{m}{my}$ es la función normlizadora. La dsitribución binomial es un EDM cuando se conoce n 
