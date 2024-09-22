@@ -7,7 +7,7 @@ Ahora si la lista:
 ### Ejercicio 1:   
 - Estimar promedio,mediana, proporción sencilla
 ### Ejercicio 2:
-- Proximamente
+- Acá en realidad hice el intervalo a lápiz y papel, después hago lo mismo pero computacionalmente. 
 ### Ejercicio 4: 
 - Estimamos el parámetro $\theta$ de un dataset que nos dan.
 - Estimamos el error estandar y producimos intervalo de confianza del 95%.
