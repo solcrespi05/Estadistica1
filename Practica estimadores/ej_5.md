@@ -41,9 +41,11 @@ $$
     E(x^{2})= Var(x) + (E(x))^{2}
 $$  
 
-    Siendo $Var(x) = \sigma^{2}$ y $(E(x))^{2}= \mu_{n}^{2}$.  
-    Despejamos la varianza asi nos queda sigma despejado.  
-    $$Var(x)= E(x^{2}) - (E(x))^{2}$$  
+Siendo $Var(x) = \sigma^{2}$ y $(E(x))^{2}= \mu_{n}^{2}$.  
+Despejamos la varianza asi nos queda sigma despejado.  
+
+$$Var(x)= E(x^{2}) - (E(x))^{2}$$  
+
 Como es el estimador de metodo de momentos se define a un momento como: $M_1= \frac{1}{n}\sum_{i=1}^{n}x_{i}^{m}$, siendo m el numero de parametro a estimar.  
 Entonces si igualamos los estimadores de momentos quedan:  
 1. $$E(x^{1}) = M_1 =\mu \Rightarrow \mu=\frac{1}{n}\sum_{i=1}^{n}x_{i}$$
