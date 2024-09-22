@@ -1,17 +1,17 @@
 # Ejercicio 5
 Considere muestras aleatorias de cada una de las siguientes distribuciones:
-* i. normal de parámetros $\mu$ y $\sigma^{2}$
-* ii. exponencial de parámetro 𝜆;
-* iii. Poisson de parámetro 𝜆;
-* iv. con PDF que depende de un parámetro 𝜃 ∈ (0, 1);  
-$$ f(x; \theta) = \frac{1}{\theta}x^{(\frac{1}{\theta}-1)}I_{[0,1]}(x)$$
+i. normal de parámetros $\mu$ y $\sigma^{2}$
+ii. exponencial de parámetro 𝜆;
+iii. Poisson de parámetro 𝜆;
+iv. con PDF que depende de un parámetro 𝜃 ∈ (0, 1);  
+$$ f(x; \theta) = \frac{1}{\theta}x^{(\frac{1}{\theta}-1)}I_{[0,1]}(x)
+$$  
 , donde  
-$$
-I_{[0,1]}(x) = \left\{\begin{matrix}
+$$I_{[0,1]}(x) = \left\{\begin{matrix}
 1 & si\: 0\leq x\leq 1,  \\
 0 & \textrm{en caso contrario} \\
 \end{matrix}\right.
-$$
+$$  
 v. geométrica de parámetro 𝑝;  
 vi. gamma de parámetros 𝛼 y 𝜆;  
 vii. uniforme U [0, 𝜃].  
