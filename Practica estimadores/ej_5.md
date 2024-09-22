@@ -5,7 +5,8 @@ ii. exponencial de parámetro 𝜆;
 iii. Poisson de parámetro 𝜆;  
 iv. con PDF que depende de un parámetro 𝜃 ∈ (0, 1);  
 
-$$f(x; \theta) = \frac{1}{\theta}x^{(\frac{1}{\theta}-1)}I_{[0,1]}(x)
+$$
+f(x; \theta) = \frac{1}{\theta}x^{(\frac{1}{\theta}-1)}I_{[0,1]}(x)
 $$  
 , donde  
 
