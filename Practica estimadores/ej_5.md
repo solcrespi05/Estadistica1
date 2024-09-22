@@ -92,4 +92,20 @@ $$
 n=\frac{1}{\sigma^{2}}\sum_{i=1}^{n}(x_i -\mu)^{2} \Rightarrow \hat{\sigma^{2}} = \frac{1}{n}\sum_{i=1}^{n}(x_i - \mu)^{2}
 $$  
 
+* c. Decir si los estimadores son insesgados o asintoticamente insesgados.  
+Un estimador es insesgado cuanod la esperanza del mismo estimador es igual al parámetro.  
+El estimador asintoticamente insesgado es el que la esperanza del mismo tendiendo n a infinito es igual al parámetro.  
+Es decir:  
+    * $E(\hat{\theta}) = \theta$ (insesgado);  
+    * n->infinito : $E(\hat{\theta})= \theta$  
+
+
+$E(\hat{\mu}) = \frac{1}{n} E(\sum_{i=1}^{n}x_i) = \mu$ 
+Por lo tanto es insesgado.  
+
+$(n-> \infty);\: E(\hat{\sigma^{2}})= \sigma^{2}$ Este ej esta demostrado en una de las practicas de Ale. Que ahora no tengo, depues lo copio.  
+
+
+
+
 
