@@ -7,7 +7,8 @@ iv. con PDF que depende de un parámetro 𝜃 ∈ (0, 1);
 
 $$
 f(x; \theta) = \frac{1}{\theta}x^{(\frac{1}{\theta}-1)}I_{[0,1]}(x)
-$$  
+$$
+
 , donde  
 
 $$I_{[0,1]}(x) = \begin{matrix}
@@ -76,4 +77,19 @@ $$
 $$
 \hat{\mu}= \frac{1}{n}\sum_{i=1}^{n}x_i
 $$  
+
+Ahora buscamos la derivada de $\sigma^{2}$
+
+$$
+\frac{\partial l(\mu, \sigma^{2} )}{\partial \sigma^{2}} = -\frac{n}{\sigma} -\sum_{i=1}^{n}(x_i -\mu)^{2}\frac{1}{\sigma^{3}}
+$$  
+
+$$
+=-\frac{1}{\sigma}+\frac{1}{\sigma^{3}}\sum_{i=1}^{n}(x_i -\mu)^{2} = 0
+$$  
+
+$$
+n=\frac{1}{\sigma^{2}}\sum_{i=1}^{n}(x_i -\mu)^{2} \Rightarrow \hat{\sigma^{2}} = \frac{1}{n}\sum_{i=1}^{n}(x_i - \mu)^{2}
+$$  
+
 
