@@ -18,5 +18,6 @@ $$
 \Rightarrow  IC = (\bar{x} \pm Z_{\frac{\alpha}{2}} \frac{\sigma}{n}) = \pm 0.8340 \frac{1}{100}$$  
 $$ (-0.00834;0.008434)$$  
 * Ahora con n=1000 solo cambiamos la n en la ecuación del IC.  
-$$IC = (\bar{x} \pm Z_{\frac{\alpha}{2}} \frac{\sigma}{n}) = \pm 0.8340 \frac{1}{1000}$$  
-$$ (-0.000834;0.0008434)$$
+$$IC = (\bar{x} \pm Z_{\frac{\alpha}{2}} \frac{\sigma}{n}) = \pm 0.8340 \frac{1}{1000}$$   
+
+$$IC = (-0.000834;0.0008434)$$
