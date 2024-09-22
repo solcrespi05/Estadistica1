@@ -103,7 +103,7 @@ Es decir:
 $E(\hat{\mu}) = \frac{1}{n} E(\sum_{i=1}^{n}x_i) = \mu$ 
 Por lo tanto es insesgado.  
 
-$(n-> \infty);\: E(\hat{\sigma^{2}})= \sigma^{2}$ Este ej esta demostrado en una de las practicas de Ale. Que ahora no tengo, depues lo copio.  
+$(n \rightarrow \infty); \:  E(\hat{\sigma^{2}})= \sigma^{2}$ Este ej esta demostrado en una de las practicas de Ale. Que ahora no tengo, depues lo copio.  
 
 
 
