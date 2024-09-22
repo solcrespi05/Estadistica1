@@ -12,6 +12,7 @@ $$I_{[0,1]}(x) = \left\{\begin{matrix}
 0 & \textrm{en caso contrario} \\
 \end{matrix}\right.
 $$  
+
 v. geométrica de parámetro 𝑝;  
 vi. gamma de parámetros 𝛼 y 𝜆;  
 vii. uniforme U [0, 𝜃].  
