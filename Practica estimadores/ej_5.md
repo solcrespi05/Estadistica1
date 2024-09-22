@@ -50,16 +50,29 @@ $$ E(x^{2}) = M_2 =\sigma^{2}+\mu^{2} \Rightarrow \sigma^{2}=\frac{1}{n}\sum_{i=
 $$  
 
 * **b.** Acá nos opiden el estimador de máxima verosimilitud, este estimador es basicamente buscar la función Likelihood a raíz de la funcion acumulad a de la distribución(le agregamos $\prod$) y depsues le aplicamos logaritmo, para finalizar la derivamos por cada parámetro y la igualamos a cero.  
+
 $$
-L(\mu,\sigma^{2})= \prod_{i=1}^{n}\frac{1}{\sqrt{2 \pi \sigma^{2}}}exp(-\frac{(x_i -\mu)^{2}}{2\sigma^{2}})$$  
+L(\mu,\sigma^{2})= \prod_{i=1}^{n}\frac{1}{\sqrt{2 \pi \sigma^{2}}}exp(-\frac{(x_i -\mu)^{2}}{2\sigma^{2}})
+$$  
+
 $$
-L(\mu,\sigma^{2}) = (2\pi \sigma^{2})^{-n/2}exp (-\frac{1}{2\sigma^{2}}\sum_{i=1}^{n}(x_i -\mu)^{2})$$  
+L(\mu,\sigma^{2}) = (2\pi \sigma^{2})^{-n/2}exp (-\frac{1}{2\sigma^{2}}\sum_{i=1}^{n}(x_i -\mu)^{2})
+$$  
+
 Aplicamos logaritmo  
+
 $$
-l(\mu,\sigma^{2}) = -\frac{n}{2}ln(2\pi) - n\: ln(\theta)-\frac{1}{2 \sigma^{2}}\sum_{i=1}^{n}(x_i-\mu)^{2}$$  
+l(\mu,\sigma^{2}) = -\frac{n}{2}ln(2\pi) - n\: ln(\theta)-\frac{1}{2 \sigma^{2}}\sum_{i=1}^{n}(x_i-\mu)^{2}
+$$  
+
 $$
-\frac{\partial l(\mu, \sigma^{2} )}{\partial \mu} = \frac{1}{2\sigma^{2}}\sum_{i=1}^{n}2(x_i - \mu)=\frac{1}{\sigma^{2}}\sum_{i=1}^{n}(x_i - \mu) = 0$$  
+\frac{\partial l(\mu, \sigma^{2} )}{\partial \mu} = \frac{1}{2\sigma^{2}}\sum_{i=1}^{n}2(x_i - \mu)=\frac{1}{\sigma^{2}}\sum_{i=1}^{n}(x_i - \mu) = 0
+$$  
+
 $$\Rightarrow \sum_{i=1}^{n}x_i - n\mu =0 \Rightarrow n\mu=\sum_{i=1}^{n}x_i
 $$  
-$$\hat{\mu}= \frac{1}{n}\sum_{i=1}^{n}x_i$$  
+
+$$
+\hat{\mu}= \frac{1}{n}\sum_{i=1}^{n}x_i
+$$  
 
