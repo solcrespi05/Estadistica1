@@ -37,9 +37,9 @@ Entonces para la Normal, la cual tiene 2 parámetros, llegariamos solo hasta $E(
     * Para el primer parametro: $\Rightarrow E(x^{1})=\mu$
     * Para el segundo parámetro:  
 
-    $$ 
+$$ 
     E(x^{2})= Var(x) + (E(x))^{2}
-    $$  
+$$  
 
     Siendo $Var(x) = \sigma^{2}$ y $(E(x))^{2}= \mu_{n}^{2}$.  
     Despejamos la varianza asi nos queda sigma despejado.  
