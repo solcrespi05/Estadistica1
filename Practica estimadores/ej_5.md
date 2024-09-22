@@ -4,6 +4,7 @@ i. normal de parámetros $\mu$ y $\sigma^{2}$
 ii. exponencial de parámetro 𝜆;  
 iii. Poisson de parámetro 𝜆;  
 iv. con PDF que depende de un parámetro 𝜃 ∈ (0, 1);  
+
 $$f(x; \theta) = \frac{1}{\theta}x^{(\frac{1}{\theta}-1)}I_{[0,1]}(x)
 $$  
 , donde  
@@ -33,14 +34,21 @@ siguiente definición.
 Entonces para la Normal, la cual tiene 2 parámetros, llegariamos solo hasta $E(x^{2})$.  
     * Para el primer parametro: $\Rightarrow E(x^{1})=\mu$
     * Para el segundo parámetro:  
-    $$ E(x^{2})= Var(x) + (E(x))^{2}$$  
+
+    $$ 
+    E(x^{2})= Var(x) + (E(x))^{2}
+    $$  
+
     Siendo $Var(x) = \sigma^{2}$ y $(E(x))^{2}= \mu_{n}^{2}$.  
     Despejamos la varianza asi nos queda sigma despejado.  
     $$Var(x)= E(x^{2}) - (E(x))^{2}$$  
 Como es el estimador de metodo de momentos se define a un momento como: $M_1= \frac{1}{n}\sum_{i=1}^{n}x_{i}^{m}$, siendo m el numero de parametro a estimar.  
 Entonces si igualamos los estimadores de momentos quedan:  
 1. $$E(x^{1}) = M_1 =\mu \Rightarrow \mu=\frac{1}{n}\sum_{i=1}^{n}x_{i}$$
-2. $$ E(x^{2}) = M_2 =\sigma^{2}+\mu^{2} \Rightarrow \sigma^{2}=\frac{1}{n}\sum_{i=1}^{n}x_{i}^{2} + (\frac{1}{n}\sum_{i=1}^{n}x_{i}^{2})$$  
+2. 
+$$ E(x^{2}) = M_2 =\sigma^{2}+\mu^{2} \Rightarrow \sigma^{2}=\frac{1}{n}\sum_{i=1}^{n}x_{i}^{2} + (\frac{1}{n}\sum_{i=1}^{n}x_{i}^{2})
+$$  
+
 * **b.** Acá nos opiden el estimador de máxima verosimilitud, este estimador es basicamente buscar la función Likelihood a raíz de la funcion acumulad a de la distribución(le agregamos $\prod$) y depsues le aplicamos logaritmo, para finalizar la derivamos por cada parámetro y la igualamos a cero.  
 $$
 L(\mu,\sigma^{2})= \prod_{i=1}^{n}\frac{1}{\sqrt{2 \pi \sigma^{2}}}exp(-\frac{(x_i -\mu)^{2}}{2\sigma^{2}})$$  
