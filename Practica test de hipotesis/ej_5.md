@@ -1,0 +1,6 @@
+# Ejercicio 5
+Históricamente el 20% del mercado prefiere el jabón de la marca A.Para incrementar las ventas, la empresa A realiza una intensa campaña de publicidad. Al finalizar la misma se entrevistan 𝑛 = 400 individuos y se les pregunta si prefieren o no la marca A, procurando demostrar que la campaña fue exitosa.
+* (a) Expresar $𝐻_0$ y $𝐻_1$ en términos de 𝑝, la probabilidad de que un cliente prefiera el jabón de la marca A al finalizar la campaña. 
+* (b) Elgerente de la empresa decide concluir que la campaña de publicidad es exitosa si al menos 92 de los 400 clientes entrevistados prefieren la marca A. Especificar cuál es la región de rechazo de la hipótesis nula $𝐻_0$ e indicar, de manera aproximada, cuál es el nivel del criterio propuesto. 
+* (c) El dueño de la empresa quiere establecer otro criterio de modo que, con probabilidad 0.05, la campaña se declare exitosa cuando en realidad no lo fue. Construya una región de rechazo para satisfacer al dueño. Si al realizar la encuesta se observa que 92 de los 400 encuestados prefirieron la marca A, calcular de manera aproximada el 𝑝-valor correspondiente a los datos obtenidos. Con estos datos, ¿se rechaza la hipótesis nula a nivel 0.05? 
+* (d) Hallar de manera aproximada la probabilidad de cometer un error de tipo II con el criterio propuesto por el dueño si en realidad 𝑝 = 0.24.  
