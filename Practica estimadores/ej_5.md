@@ -107,6 +107,56 @@ Por lo tanto es insesgado.
 
 $(n \rightarrow \infty); \:  E(\hat{\sigma^{2}})= \sigma^{2}$ Este ej esta demostrado en una de las practicas de Ale. Que ahora no tengo, depues lo copio.  
 
+### Possion
+- a. Vemos que la distribución Poisson solo tiene 1 parámetro $\lambda$. Entonces el estimador de momentos queda algo como:  
+
+$$
+E(x ^{1}) = \frac{1}{n} \sum_{i=1}^{n} x_i = \lambda
+$$  
+
+- b. La loglikelihood de la Poisson es:  
+
+$$
+l(\lambda) = \sum_{i=1} ^{n}x_i \: log(\lambda) - n\lambda - \sum_{i=1}^{n}log(x_i!)
+$$  
+
+El estimador de máxima verosimilitud queda (haciendo la derivada de la loglikelihood, ver tambien que como el ultimo término no depende de $\lambda$ es 0 en la derivada):  
+
+$$
+\frac{\partial l(\lambda)}{\partial \lambda} = \frac{\sum_{i=1}^{n}x_i}{\lambda}-n = 0
+$$  
+
+$$
+\frac{\sum_{i=1}^{n}x_i}{\lambda} = n \: \Rightarrow \frac{\sum_{i=1}^{n}x_i}{n} = \lambda = \bar{x}
+$$  
+
+- c. EL estimador de $\lambda$  es insesgado ya que como vemos en el estimador de momento :  
+
+$$
+E(x^{1}) = M_1 = \lambda
+$$  
+
+### Función acumulada
+- a. Tiene un solo paramero que es $\theta$. Por lo que en el estimaodr de momentos solo buscamos $E(x^{1})$ .Como no es una distribución conocida hacemos la integral de la acumulada.  
+
+$$
+E(x^{1}) = \int_{0}^{1} x \: \frac{1}{\theta} \: x^{\frac{1}{\theta}-1 }\: dx = \frac{1}{\theta} \int_{0}^{1} x . x^{\frac{1}{\theta}-1} \: dx
+$$  
+
+$$
+\frac{1}{\theta} \int_{0}^{1} x^{\frac{1}{\theta}-1 + 1} \: dx = \frac{1}{\theta} \int_{0}^{1}x^{\frac{1}{\theta}} \: dx
+$$  
+
+$$
+\left [ \frac{1}{\theta} \frac{1}{\frac{1}{\theta}+1} \right ] = \frac{1}{1+ \theta}
+$$  
+
+(Evaluado entre 0 y 1).  
+Ahora despejamos para que quede $\theta$:  
+
+$$
+\frac{1}{1+\theta}  =\bar{x} \: \Rightarrow \hat{\theta} = \frac{1-\bar{x}}{\bar{x}}
+$$  
 
 
 
