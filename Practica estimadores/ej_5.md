@@ -117,7 +117,7 @@ $$
 - b. La loglikelihood de la Poisson es:  
 
 $$
-l(\lambda) = \sum_{i=1} ^{n}x_i \: log(\lambda) - n\lambda - \sum_{i=1}^{n}log(x_i!)
+l(\lambda) = \sum_{i=1} ^{n}x_i \ log(\lambda) - n\lambda - \sum_{i=1}^{n}log(x_i!)
 $$  
 
 El estimador de máxima verosimilitud queda (haciendo la derivada de la loglikelihood, ver tambien que como el ultimo término no depende de $\lambda$ es 0 en la derivada):  
