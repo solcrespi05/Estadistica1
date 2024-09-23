@@ -140,11 +140,11 @@ $$
 - a. Tiene un solo paramero que es $\theta$. Por lo que en el estimaodr de momentos solo buscamos $E(x^{1})$ .Como no es una distribución conocida hacemos la integral de la acumulada.  
 
 $$
-E(x^{1}) = \int_{0}^{1} x \: \frac{1}{\theta} \: x^{\frac{1}{\theta}-1 }\: dx = \frac{1}{\theta} \int_{0}^{1} x . x^{\frac{1}{\theta}-1} \: dx
+E(x^{1}) = \int_{0}^{1} x \ \frac{1}{\theta} \ x^{\frac{1}{\theta}-1 }\ dx = \frac{1}{\theta} \int_{0}^{1} x . x^{\frac{1}{\theta}-1} \ dx
 $$  
 
 $$
-\frac{1}{\theta} \int_{0}^{1} x^{\frac{1}{\theta}-1 + 1} \: dx = \frac{1}{\theta} \int_{0}^{1}x^{\frac{1}{\theta}} \: dx
+\frac{1}{\theta} \int_{0}^{1} x^{\frac{1}{\theta}-1 + 1} \ dx = \frac{1}{\theta} \int_{0}^{1}x^{\frac{1}{\theta}} \ dx
 $$  
 
 $$
@@ -155,7 +155,7 @@ $$
 Ahora despejamos para que quede $\theta$:  
 
 $$
-\frac{1}{1+\theta}  =\bar{x} \: \Rightarrow \hat{\theta} = \frac{1-\bar{x}}{\bar{x}}
+\frac{1}{1+\theta}  =\bar{x} \ \Rightarrow \hat{\theta} = \frac{1-\bar{x}}{\bar{x}}
 $$  
 
 
