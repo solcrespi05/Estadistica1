@@ -127,7 +127,7 @@ $$
 $$  
 
 $$
-\frac{\sum_{i=1}^{n}x_i}{\lambda} = n \: \Rightarrow \frac{\sum_{i=1}^{n}x_i}{n} = \lambda = \bar{x}
+\frac{\sum_{i=1}^{n}x_i}{\lambda} = n \ \Rightarrow \frac{\sum_{i=1}^{n}x_i}{n} = \lambda = \bar{x}
 $$  
 
 - c. EL estimador de $\lambda$  es insesgado ya que como vemos en el estimador de momento :  
@@ -158,6 +158,73 @@ $$
 \frac{1}{1+\theta}  =\bar{x} \ \Rightarrow \hat{\theta} = \frac{1-\bar{x}}{\bar{x}}
 $$  
 
+### Uniforme
+- a. La distribución uniforme tiene dos parametros pero en este caso nos dan 1 y tenemos que estimar el otro.  
+
+$$
+E(x^{1}) = \int_{0}^{\theta} x \ \frac{1}{\theta} \ dx =  \frac{1}{\theta} \int_{0}^{\theta} x \ dx
+$$  
+
+Evaluamos entre 0 y $\theta$:  
+
+$$
+=\frac{1}{\theta} \left(\frac{\theta^{2}}{2} - \frac{0}{2} \right) =\frac{\theta}{2}
+$$  
+
+Despejamos $\theta$  
+
+$$
+\frac{\theta}{2} = \bar{x} \ \Rightarrow \ \hat{\theta} = 2\bar{x}
+$$  
+
+- b. El estimador de maxima verosimlitud queda aplicando el logaritmo (la log likelihood):  
+
+$$
+l(0,\theta) = -n \ log(\theta)
+$$  
+
+No hay que derivar este resultado para maximar la likelihood, ya que $-n \ log(\theta)$ es decreciente. Por lo que maximiza la likelihood es el valor más pequeño posible de $\theta$. Que sería:  
+
+$$
+\hat{\theta}= X_{(n)} = max (X_1,...,X_n)
+$$  
+
+- d. Como nos dió dos estimadores diferentes lo que vamos a hacer es calcular el ECM para ver cual conviene usar.  
+
+La ecuación de ECM es:  
+
+$$
+ECM(\hat{\theta}) =  E((\hat{\theta}-\theta)^{2}) = Var(\hat{\theta}) + (Sesgo(\hat{\theta}))^{2}
+$$  
+
+Calculamos el sesgo para ambos estimadores.  
+
+$$
+E(\bar{x}) =\frac{a-b}{2}= \frac{\theta-0}{2} = \frac{\theta}{2}
+$$  
+
+$$
+Var(\bar{x}) = \frac{Var(x)}{n} = \frac{\theta^{2}/12}{n} = \frac{\theta^{2}}{12n}
+$$  
+
+$$
+E(\hat{\theta_{MM}}) = E(2\bar{x}) \ \Rightarrow \ E(2 \bar{x}) = 2 \ \frac{\theta}{2} = \theta
+$$  
+
+Nos dió que es insesgado. Ahora veamos el de MLE.  
+
+$$
+E(\hat{\theta_{MLE}}) = E(X_{(n)}) = \frac{n}{n+1}\theta
+$$  
+
+La ECM nos queda:  
+
+$$
+ECM(\hat{\theta_{MLE}}) = \frac{\theta^{2}(2n+2)}{(n+1)^{2}(n+2)}
+$$  
+
+Conclusión:  
+El MLE tiende a ser mejor porque tiende a un ECM menor para n más grandes, a pesar de estar sesgado.   
 
 
 
