@@ -45,7 +45,12 @@ $$
 Siendo $Z_{vc}$ nuestro Z de valor crítico pero a diferencia del que calculamos arriba, le cambiamosa nuestro $\mu$.  
 
 $$
-P \left(Z> \left(\frac{0,164-0,1}{1/\sqrt{100}} \right)\right) = \newline = P(Z>0,64)= \newline = 1-0,7389= \ 0,2611
+P \left(Z> \left(\frac{0,164-0,1}{1/\sqrt{100}} \right)\right) = 
+$$
+
+
+$$
+= P(Z>0,64)= 1-0,7389= \ 0,2611
 $$  
 
 Potencia del test con $\mu = 0.1$ $\rightarrow$  $0,2611$
@@ -53,7 +58,11 @@ Potencia del test con $\mu = 0.1$ $\rightarrow$  $0,2611$
 **Si $\mu = 1$**  
 
 $$
-P \left(Z> \left(\frac{0,164-1}{1/\sqrt{100}} \right)\right) = \newline = P(Z>(-8.36)) = P(Z<8,36) \approx 1
+P \left(Z> \left(\frac{0,164-1}{1/\sqrt{100}} \right)\right) = 
+$$  
+
+$$
+ = P(Z>(-8.36)) = P(Z<8,36) \approx 1
 $$  
 
 Potencia del test con $\mu = 1$ $\rightarrow$  $\approx 1$  
