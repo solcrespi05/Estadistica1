@@ -59,7 +59,7 @@ $$
 RR= (|T|\geq 1.96)
 $$  
 
-Nuestro x observado es: $\bar{x}=\frac{400}{1000}$  
+Nuestro x observado es: $\bar{x}=\frac{490}{1000}$  
 
 Entonces el T observado:   
 
