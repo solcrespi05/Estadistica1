@@ -39,7 +39,7 @@ Por lo que si $\bar{x} > 0,164$ Rechazo $H_0$
 - c. Calculamos la potencia del test para $\mu = 0,1$:  
 
 $$
-\textrm{Potencia del test} = P(Z<Z_{vc})
+\textrm{Potencia del test} = P \left(Z>Z_{vc} \right)
 $$  
 
 Siendo $Z_{vc}$ nuestro Z de valor crítico pero a diferencia del que calculamos arriba, le cambiamosa nuestro $\mu$.  
