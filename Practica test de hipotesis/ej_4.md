@@ -1,5 +1,6 @@
 # Ejercicio 4
-Se desea determinar si un dado de seis caras está cargado o no. Para ello se arroja el dado 1000 veces obteniéndose los siguientes resultados:
+Se desea determinar si un dado de seis caras está cargado o no. Para ello se arroja el dado 1000 veces obteniéndose los siguientes resultados:  
+
 ![alt text](image.png)  
 
 Estamos interesados en testear las hipótesis $𝐻_0$: El dado es equilibrado vs. $𝐻_1$: El dado está cargado. Para ello consideramos distintos tests: 
@@ -35,4 +36,37 @@ $$
 \Rightarrow \frac{0}{0,016} = 0 \rightarrow \textrm{ ya que es menor al valor crítico NO rechazamos} \ H_0
 $$  
 
-falta completar
+El p-valor que corresponde al valor observado $Z=0$ es de 0.5 (lo buscamos en la tabla de normal). Dado que $0.5>0.05 (\alpha)$, confirmamos que no rechazamos $H_0$.  
+
+* b. Y:"cant de veces que el resultado del dado es $\leq$ 3".  
+
+    * $n= 1000$
+    * $p_0 =1/2$
+    * $\alpha =  0,05$
+    * $H_0 : p= p_0$
+    * $H_1: p \neq p_0$
+
+Tenemos el estadístico:  
+
+$$
+T=\frac{\bar{x}-0.5}{\sqrt{\frac{0.5(0.5)}{1000}}} = \frac{\bar{x}-0.5}{0.016}
+$$  
+
+Tenemos el Z crítico : $Z_{1-0.025} = Z_{0.975} = 1.96$  
+tenemos la misma región de rechazo que en el punto a:
+
+$$
+RR= (|T|\geq 1.96)
+$$  
+
+Nuestro x observado es: $\bar{x}=\frac{400}{1000}$  
+
+Entonces el T observado:   
+
+$$
+\Rightarrow \frac{0.49-0.5}{0.016} = -0.625
+$$  
+
+Dado que $Z \approx -0.632$, no cae en la región de rechazo $|Z|> 1.96 $. No rechazamos la hipótesis nula. No hay suficiente evidencia para concluir que el dado está cargado basado en los resultados menores o iguales que 3.  
+
+El valor de $ Z=-0.632 $ corresponde a un valor p de aproximadamente $0,527$. Como $ p>0.05 $, confirmamos que no rechazamos $H_0$. 
