@@ -67,6 +67,6 @@ $$
 \Rightarrow \frac{0.49-0.5}{0.016} = -0.625
 $$  
 
-Dado que $Z \approx -0.632$, no cae en la región de rechazo $|Z|> 1.96 $. No rechazamos la hipótesis nula. No hay suficiente evidencia para concluir que el dado está cargado basado en los resultados menores o iguales que 3.  
+Dado que $Z \approx -0.632$, no cae en la región de rechazo $|Z|> 1.96$. No rechazamos la hipótesis nula. No hay suficiente evidencia para concluir que el dado está cargado basado en los resultados menores o iguales que 3.  
 
-El valor de $ Z=-0.632 $ corresponde a un valor p de aproximadamente $0,527$. Como $ p>0.05 $, confirmamos que no rechazamos $H_0$. 
+El valor de $Z=-0.632$ corresponde a un valor p de aproximadamente $0,527$. Como $p>0.05$, confirmamos que no rechazamos $H_0$. 
