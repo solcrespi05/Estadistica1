@@ -21,7 +21,7 @@ $$
 Con este valor podemos determinar el nivel significancia. Buscamos el valor de P(Z>1.5).  
 
 $$
-Z_{1-\alpha} = 1,5 \\ 1-\alpha = 0,9332 \\ \alpha=0,0668
+Z_{1-\alpha} = 1,5 \newline 1-\alpha = 0,9332 \newline \alpha=0,0668
 $$  
 
 * c. Cambiamos el valor de $\alpha =0,05$, por lño que el estadístico nos queda:  
@@ -39,7 +39,7 @@ $$
 Resolvemos para $\hat{p}$  
 
 $$
-\hat{p}-0,20 = 1,645 * 0,02 \\ \hat{p}=0,20 +0,0329 = 0,2329. 
+\hat{p}-0,20 = 1,645 * 0,02 \newline \hat{p}=0,20 +0,0329 = 0,2329. 
 $$  
 
 La zona de rechazo queda: $R=(p \geq 0,2329)$  

@@ -38,7 +38,11 @@ Z_{0.95} = 1.64
 $$  
 
 $$
-1,64 = \frac{c- 45}{1,2} \Rightarrow 1,968+45=c \\ c= 46,968
+1,64 = \frac{c- 45}{1,2} \Rightarrow 1,968+45=c 
+$$  
+
+$$
+c= 46,968
 $$  
 
 La region de recho para el $\alpha_2$ nos queda : $R= (46,968; + \infty)$  
@@ -46,7 +50,7 @@ La region de recho para el $\alpha_2$ nos queda : $R= (46,968; + \infty)$
 
 * b. Puede tomar el siguiente rango de valores para que se rechace la hipótesis nula : $(46,968 \ ; \ 47,796)$  
 
-* c. Queremos calcular la probabilidad de no rechazar $ 𝐻_0$ si en realidad $𝜇=48$ minutos, es decir, si $𝜇_{verdadero}=48$  
+* c. Queremos calcular la probabilidad de no rechazar $𝐻_0$ si en realidad $𝜇=48$ minutos, es decir, si $𝜇_{verdadero}=48$  
 
 
 Esta probabilidad es conocida como el error tipo II o β.  
